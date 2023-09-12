@@ -1,0 +1,10 @@
+:root {
+  --black: hsl(0, 0%, 0%);
+  --white: hsl(0, 0%, 100%);
+  --green: hsl(169, 64%, 50%);
+
+  --primary-color: hsl(169, 64%, 50%);
+  --primary-background: hsl(0, 0%, 95%);
+  --secondary-background: var(--white);
+  --primary-foreground: hsl(0, 0%, 20%);
+}
