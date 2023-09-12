@@ -17,6 +17,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       text: 'Docs'
     },
     {
+      href: '/api',
+      text: 'Api'
+    },
+    {
       href: '/forms',
       text: 'Forms'
     }
