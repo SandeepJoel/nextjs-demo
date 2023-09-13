@@ -13,7 +13,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       text: 'Products'
     },
     {
-      href: '/docs/quick-start',
+      href: '/docs',
       text: 'Docs'
     },
     {

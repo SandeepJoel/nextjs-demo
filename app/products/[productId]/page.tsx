@@ -18,7 +18,7 @@ export default async function Page({ params }: { params: { productId: string } }
       <br />
       <button>Add to cart</button>
 
-      <h2 className="mt-50">Comments</h2>
+      <h2 className="mt-50">Reviews</h2>
       <Suspense fallback={<div>Loading...</div>}>
         {/* @ts-expect-error Async Server Component */}
         <Comments />
