@@ -19,11 +19,11 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     {
       href: '/api',
       text: 'Api'
-    },
-    {
-      href: '/forms',
-      text: 'Forms'
     }
+    // {
+    //   href: '/forms',
+    //   text: 'Forms'
+    // }
   ].map((i, index) => (
     <div className="m-5" key={index}>
       <Link href={i.href}> {i.text}</Link>
