@@ -7,8 +7,11 @@ export default async function Page() {
       <Time></Time>
       <p>
         Step-3 - Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, deleniti dolores
-        porro possimus iusto magnam suscipit nihil perspiciatis nobis nemo saepe officiis commodi
-        architecto minima, similique quam facilis aliquid consequatur?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, deleniti dolores Lorem
+        ipsum dolor sit amet consectetur adipisicing elit. Dolorem, deleniti dolores porro possimus
+        iusto magnam suscipit nihil perspiciatis nobis nemo saepe officiis commodi architecto
+        minima, similique quam facilis aliquid consequatur?
+        <strong>facilis aliquid consequatur? </strong>
       </p>
     </>
   );
