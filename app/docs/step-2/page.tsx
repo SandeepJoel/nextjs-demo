@@ -1,11 +1,10 @@
 import Time from 'components/Time';
 import Link from 'next/link';
-import CurrentPageName from 'components/CurrentPagename';
 
 export default async function Page() {
   return (
     <>
-      <CurrentPageName />
+      <h1>Step 2</h1>
       <Time></Time>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, deleniti dolores porro

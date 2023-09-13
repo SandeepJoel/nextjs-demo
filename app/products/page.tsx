@@ -1,10 +1,9 @@
 import Time from 'components/Time';
 import Link from 'next/link';
-// import Products from '../data/db';
 
 export default async function Page() {
   const allProducts: any = await fetch(`https://fakestoreapi.com/products`, {
-    next: { revalidate: 3600 }
+    next: { revalidate: 10 }
   }).then((res) => res.json());
 
   let products = allProducts.map((i: any, index: number) => (

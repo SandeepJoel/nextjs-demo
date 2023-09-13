@@ -3,9 +3,9 @@ import Comments from 'components/Comments';
 import { Suspense } from 'react';
 
 export default async function Page({ params }: { params: { productId: string } }) {
-  const product: any = await fetch(`https://fakestoreapi.com/products/${params.productId}`, {
-    next: { revalidate: 5 }
-  }).then((res) => res.json());
+  const product: any = await fetch(`https://fakestoreapi.com/products/${params.productId}`).then(
+    (res) => res.json()
+  );
 
   return (
     <>
