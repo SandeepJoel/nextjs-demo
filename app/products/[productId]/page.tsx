@@ -6,7 +6,6 @@ export default async function Page({ params }: { params: { productId: string } }
   const product: any = await fetch(`https://fakestoreapi.com/products/${params.productId}`).then(
     (res) => res.json()
   );
-
   return (
     <>
       <Time />

@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export default async function Page() {
   const allProducts: any = await fetch(`https://fakestoreapi.com/products`, {
-    next: { revalidate: 10 }
+    next: { revalidate: 120 }
   }).then((res) => res.json());
 
   let products = allProducts.map((i: any, index: number) => (
